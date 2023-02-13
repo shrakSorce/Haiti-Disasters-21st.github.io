@@ -1,0 +1,34 @@
+* {
+    cursor: none;
+}
+.btn02 {
+    display:block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid red;
+    background-image: url(images/button\ background.png);
+    transition: width 2s, height 2s, background-image 4s, border-radius 2s 1s;
+  }
+
+  .btn02:hover {
+    height: 80px;
+    width: 80px;
+    background-image: url(images/haiti\ flag.jpg);
+  }
+
+  .btn02:active {
+    border-radius: 10px;
+  }
+ 
+  .cursor {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #000;
+    pointer-events: none;
+    z-index: 999;
+  }
+  
+  
