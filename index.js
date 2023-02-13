@@ -1,5 +1,4 @@
 let cursor = document.querySelector('.cursor');
-let btn02 = document.querySelector('.btn02')
 
 document.addEventListener('mousemove', moveCursor)
 
@@ -12,8 +11,3 @@ cursor.style.left = `${x}px`;
 cursor.style.top = `${y}px`;
 }
 
-document.addEventListener('click', clicked)
-
-function clicked {
-    
-}
